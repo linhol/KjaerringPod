@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Javel</title>
+    <meta name="description" content="This is the description">
+    <link rel="stylesheet" href="style.css">   
+</head>
+<body>
+    <header class="main-header">
+        <nav class="nav main-nav">
+            <ul>
+                <li><a href="index.html">HJEM</a></li>
+                <li><a href="butikk.html">BUTIKK</a></li>
+                <li><a href="om.html">OM</a></li>
+            </ul>
+        </nav>
+        <h1 class="band-name band-name-large">AYKO</h1>
+    </header>
+
+    <section class="container content-section">
+        <h2 class="section-header">MUSIKK</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Album 1</span>
+                <img class="shop-item-img" src="https://images.unsplash.com/photo-1592512238017-e8bd5ae30282?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1001&q=80"
+                    width="200">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">12.99</span>
+                    <button class="btn btn-primary shop-item-btn" role="button">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="shop-item">
+                    <span class="shop-item-title">Album 2</span>
+                <img class="shop-item-img" src="https://images.unsplash.com/photo-1592441975227-490c8062625c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+                    width="200">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">12.99</span>
+                    <button class="btn btn-primary shop-item-btn" role="button">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="shop-item">
+                <span class="shop-item-title">Album 3</span>
+                <img class="shop-item-img" src="https://images.unsplash.com/photo-1583115260445-f95fe37202ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=1237&q=80"
+                    width="200" height="200">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">12.99</span>
+                    <button class="btn btn-primary shop-item-btn" role="button">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="shop-item">
+                <span class="shop-item-title">Album 4</span>
+                <img class="shop-item-img" src="https://images.unsplash.com/photo-1592434089408-7e3745969e13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+                    width="200" height="200">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">12.99</span>
+                    <button class="btn btn-primary shop-item-btn" role="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container content-section">
+        <h2 class="section-header">MERCH</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Genser</span>
+                <img class="shop-item-img"
+                    src="https://www.tights.no/wp-content/uploads/sites/7/2018/08/110916141_B_HGB-1024x1024.jpg" width="200">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">12.99</span>
+                    <button class="btn btn-primary shop-item-btn" role="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Hatt</span>
+                <img class="shop-item-img"
+                    src="https://www.allgoodgood.com/wp-content/uploads/2019/02/dog-yellow-hat-400x400.jpg" width="200">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">12.99</span>
+                    <button class="btn btn-primary shop-item-btn" role="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container content-section">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICING</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-img" src="https://www.allgoodgood.com/wp-content/uploads/2019/02/dog-yellow-hat-400x400.jpg" width="100">
+                    <span class="cart-item-title">HATT</span>
+                </div>
+                <span class="cart-price cart-column">12.99</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" value="1">
+                    <button class="btn btn-danger" role="button">REMOVE</button>
+                </div>
+                
+            </div>
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-img" src="https://images.unsplash.com/photo-1592512238017-e8bd5ae30282?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1001&q=80"
+                        width="100">
+                    <span class="cart-item-title">Album 1</span>
+                </div>
+                <span class="cart-price cart-column">12.99</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" value="2">
+                    <button class="btn btn-danger" role="button">REMOVE</button>
+                </div>
+            </div>
+        </div>
+    <div class="cart-total">
+        <strong class="cart-total-title">TOTAL</strong>
+        <span class="cart-total-price">83.37</span>
+    </div>
+
+    <button class="btn btn-primary btn-purchase" role="button">KJØØØØP</button>
+
+    </section>
+
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <h3 class="band-name">AYKO</h3>
+            <ul class="nav footer-nav">
+                <li>
+                    <a href="https://www.youtube.com/watch?v=KRuXB2BQYgM" target="_blank"><img
+                            src="https://image.flaticon.com/icons/png/512/1384/1384028.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://image.flaticon.com/icons/svg/1384/1384031.svg" target="_blank">
+                        <img src="https://image.flaticon.com/icons/png/512/1384/1384015.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/aykoofficial/" target="_blank">
+                        <img src="https://image.flaticon.com/icons/svg/1384/1384005.svg">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
